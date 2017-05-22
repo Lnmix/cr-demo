@@ -1,0 +1,105 @@
+// THEME RESET
+// -----------
+// Personal resets in addition to Normalize.scss
+// ===========
+
+// Use border-box for everything
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+// Resets margins and paddings for headers, ul, ol and p
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+p,
+blockquote {
+  padding: 0;
+  margin: 0;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  display: block;
+}
+
+// Removes all decimals and discs from li
+li {
+  list-style: none;
+}
+
+// Completely resets form items
+// ----------------------------
+// Super hard reset that removes all borders
+// and radiuses of all form items.
+// ============================
+input,
+textarea,
+button {
+  border: 0;
+  border-radius: 0;
+  outline: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    outline: none;
+  }
+}
+
+// Set Image and Objects to have a max-width of 100%
+embed,
+iframe,
+img,
+object,
+video {
+  max-width: 100%;
+}
+
+// Taming Table layouts
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+html, body, div {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+ol, ul {
+  list-style: none;
+}

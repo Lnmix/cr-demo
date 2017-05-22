@@ -1,0 +1,34 @@
+{
+  "name": "@lnmx/crdemo",
+  "version": "0.0.1",
+  "description": "Trust Margo template package for COFFEEREQUEST/flat-pack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@lnmx/flat-pack": "0.4.0",
+    "marked": "0.3.6",
+    "nunjucks": "2.5.2",
+    "nunjucks-markdown": "^2.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "6.5.1",
+    "browser-sync": "2.17.3",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "3.1.1",
+    "gulp-clean-css": "3.0.3",
+    "gulp-livereload": "3.8.1",
+    "gulp-load-plugins": "1.3.0",
+    "gulp-notify": "2.2.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-postcss": "6.2.0",
+    "gulp-sass": "2.3.2",
+    "gulp-sourcemaps": "1.7.3",
+    "gulp-util": "3.0.7",
+    "postcss-flexboxfixer": "0.0.5",
+    "require-dir": "0.3.1"
+  }
+}

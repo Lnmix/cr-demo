@@ -1,0 +1,6 @@
+<h1>{{item.headline.primary_headline}}</h1>
+<h2>{{item.headline.secondary_headline}}</h2>
+
+{% markdown %}
+{{item.body.body_text | safe}}
+{% endmarkdown %}

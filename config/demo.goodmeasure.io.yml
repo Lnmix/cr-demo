@@ -1,0 +1,20 @@
+domain: goodmeasure.io
+rootdomain: goodmeasure.io
+secure: false
+titleSuffix: AudienceDrive
+siteName: Moving content forward
+faviconFolder: audiencedrive
+
+sitemap:
+  404:
+    template: 404.html
+  /:
+    template: main.html
+  /presale/*:
+    template: presale.html
+  /main.js:
+    template: main.js
+    type: file
+  /styles.css:
+    template: styles.css
+    type: file
